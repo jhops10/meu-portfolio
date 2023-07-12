@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+    <!-- Menu Principal -->
     <nav id="menu-topo">
       <div class="logo">João Paulo</div>
       <div>
@@ -19,6 +20,8 @@
         </ul>
       </div>
     </nav>
+    <!-- Menu Principal -->
+
     <!-- Menu Hamburger -->
     <nav id="hamburger-nav">
       <div class="logo">João Paulo</div>
@@ -37,6 +40,51 @@
       </div>
     </nav>
     <!-- Menu Hamburger -->
+
+    <!-- Hero Section -->
+    <section id="profile">
+      <div class="section__img__container">
+        <img
+          class="img__profile"
+          src="./assets/profile-pic.jpg"
+          alt="Foto de João Paulo"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Olá, meu nome é</p>
+        <h1 class="title">João Paulo</h1>
+        <p class="section__text__p2">Desenvolvedor Front-End</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contato
+          </button>
+        </div>
+
+        <!-- Redes Sociais -->
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="Link do meu perfil no LinkedIn"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/joaowais/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="Link do meu perfil no Github"
+            class="icon"
+            onclick="location.href='https://github.com/jhops10'"
+          />
+        </div>
+        <!-- Redes Sociais -->
+      </div>
+    </section>
+    <!-- Hero Section -->
     <script src="script.js"></script>
   </body>
 </html>
