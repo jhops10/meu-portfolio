@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px) {
+  #menu-topo {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+}
